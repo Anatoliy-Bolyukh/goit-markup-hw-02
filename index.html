@@ -6,34 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css/style.css">
 </head>
 
-<body>
+<body class="page">
     <!-- шапка сторінки -->
     <header>
-        <a href="">WebStudio</a>
+        <a href="" class="logo"><span class="logo-title">Web</span>Studio</a>
+        <!-- навігація сайту -->
         <nav>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="./portfolio.html" target="_blank">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="site-nav list">
+                <li><a href="" class="site-nav">Студия</a></li>
+                <li><a href="./portfolio.html" target="_blank" class="site-nav">Портфолио</a></li>
+                <li><a href="" class="site-nav">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="contacts-nav list">
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
-    <!-- основа сторінки -->
+    <!-- герой -->
     <main>
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="hero">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="button" type="button">Заказать услугу</button>
         </section>
-
+        <!-- список переваг -->
         <section>
-            <h2>Заголовок</h2>
-            <ul>
+            <h2 class="main-title">Список переваг</h2>
+            <ul class="text">
                 <li>
                     <h3>Внимание к деталям</h3>
                     <p>
@@ -69,45 +71,45 @@
                 Чем мы занимаемся
             </h2>
             <ul>
-                <li>
+                <li class="list">
                     <img src="./Images/image01.jpg" alt="Робота верстальщика" width="370">
                 </li>
-                <li>
+                <li class="list">
                     <img src="./Images/image02.jpg" alt="Оптимізяція під мобільний телефон" width="370">
                 </li>
-                <li>
+                <li class="list">
                     <img src="./Images/image03.jpg" alt="Робота веб-дизайнера" width="370">
                 </li>
             </ul>
         </section>
-
+        <!-- список працівників -->
         <section>
             <h2>
                 Наша команда
             </h2>
-            <ul>
-                <li>
+            <ul class="avatar">
+                <li class="list">
                     <div>
                         <img src="./Images/employee01.jpg" alt="Працівник-1" width="270">
                     </div>
                     <h3>Игорь Демьяненко</h3>
                     <p>Product Designer</p>
                 </li>
-                <li>
+                <li class="list">
                     <div>
                         <img src="./Images/employee02.jpg" alt="Працівник-2" width="270">
                     </div>
                     <h3>Ольга Репина</h3>
                     <p>Frontend Developer</p>
                 </li>
-                <li>
+                <li class="list">
                     <div>
                         <img src="./Images/employee03.jpg" alt="Працівник-3" width="270">
                     </div>
                     <h3>Николай Тарасов</h3>
                     <p>Marketing</p>
                 </li>
-                <li>
+                <li class="list">
                     <div>
                         <img src="./Images/employee04.jpg" alt="Працівник-4" width="270">
                     </div>
@@ -117,14 +119,15 @@
             </ul>
         </section>
     </main>
-
-    <footer>
-        <a href="">WebStudio</a>
+    <!-- підвал -->
+    <footer class=>
+        <a href=""><span class="logo-title-footer">Web</span>Studio</a>
         <address>
             <ul>
-                <li><a href="https://bit.ly/3pXMvUd" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li class="list"><a href="https://bit.ly/3pXMvUd" target="_blank">г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li class="list"><a href="mailto:info@example.com">info@example.com</a></li>
+                <li class="list"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>

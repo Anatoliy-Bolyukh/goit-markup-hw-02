@@ -1,0 +1,94 @@
+/* палітра кольорів */
+/* колір основного тексту rgba(33, 33, 33, 1)*/
+/* колір вторичного тексту rgba(117, 117, 117, 1)*/
+/* колір основного заголовку rgba(255, 255, 255, 1)*/
+/* колір акценту color: #2196F3;*/
+/* основний колір фону #E5E5E5;*/
+
+
+:root {
+    --secondary-color: rgba(117, 117, 117, 1);
+    --main-color: rgba(33, 33, 33, 1);
+    --main-title-color: rgba(255, 255, 255, 1);
+    --accent-color: rgba(33, 150, 243, 1);
+    --main-background: #E5E5E5;
+}
+
+
+body {
+    background-color: var(--main-background);
+    color: var(--main-color);
+    font-family: roboto;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* шапка сторінки */
+/* логотип */
+.logo {
+    color: black;
+    text-decoration: none;
+}
+
+.logo-title {
+    color: var(--accent-color);
+}
+
+/* навігація сайту */
+.site-nav a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+/*контакти*/
+.contacts-nav a {
+    color: var(--secondary-color);
+}
+
+.contacts-nav a:hover,
+.contacts-nav a:focus {
+    color: var(--accent-color);
+}
+
+/* герой */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+
+}
+
+.button {
+    color: var(--main-title-color);
+    background-color: var(--accent-color);
+}
+
+/* список переваг */
+.text p {
+    color: var(--secondary-color);
+}
+
+/* наша команда */
+.avatar p {
+    color: var(--secondary-color);
+}
+
+/* підвал */
+
+.footer-background {
+    background-color: #2F303A;
+}
+
+.logo-footer {
+    color: var(--main-title-color);
+}
