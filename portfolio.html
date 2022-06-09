@@ -5,38 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- шапка сторінки -->
     <header>
-        <a href="">WebStudio</a>
+        <a href="" class="logo"><span class="logo-title">Web</span>Studio</a>
         <nav>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="./portfolio.html" target="_blank">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="site-nav list">
+                <li><a href="./index.html" target="_blank" class="site-nav">Студия</a></li>
+                <li><a href="./portfolio.html" target="_blank" class="site-nav">Портфолио</a></li>
+                <li><a href="" class="site-nav">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="contacts-nav list">
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
-    <!-- основний контент -->
+    <!-- герой -->
     <main>
         <section>
             <h1>Секція контерту</h1>
             <ul>
-                <li><button type="button">Все</button></li>
-                <li><button type="button">Веб-сайты</button></li>
-                <li><button type="button">Приложения</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
+                <li><button class="button-control" type="button">Все</button></li>
+                <li><button class="button-control" type="button">Веб-сайты</button></li>
+                <li><button class="button-control" type="button">Приложения</button></li>
+                <li><button class="button-control" type="button">Дизайн</button></li>
+                <li><button class="button-control" type="button">Маркетинг</button></li>
             </ul>
             <!-- набор контенту -->
-            <ul>
+            <ul class="img-title list">
                 <li>
                     <a href="">
                         <img src="./Images/imgnotebook.jpg" alt="notebook" width="370">
@@ -105,12 +109,14 @@
     </main>
     <!-- підвал -->
     <footer>
-        <a href="">WebStudio</a>
+        <a class="logo-icon" href=""><span class="logo-title">Web</span>Studio</a>
         <address>
             <ul>
-                <li><a href="https://bit.ly/3pXMvUd" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li class="list"><a class="logo-icon-link" href="https://bit.ly/3pXMvUd" target="_blank">г. Киев, пр-т
+                        Леси Украинки,
+                        26</a></li>
+                <li class="list"><a class="logo-icon-link" href="mailto:info@example.com">info@example.com</a></li>
+                <li class="list"><a class="logo-icon-link" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>

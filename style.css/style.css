@@ -20,6 +20,7 @@ body {
     color: var(--main-color);
     font-family: roboto;
     letter-spacing: 0.03em;
+    font-family: Roboto;
 }
 
 .list {
@@ -31,6 +32,12 @@ body {
 .logo {
     color: black;
     text-decoration: none;
+
+    font-family: 'Raleway' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
 }
 
 .logo-title {
@@ -41,6 +48,12 @@ body {
 .site-nav a {
     color: var(--main-color);
     text-decoration: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14%;
+    letter-spacing: 0.02em;
 }
 
 .site-nav a:hover,
@@ -51,6 +64,13 @@ body {
 /*контакти*/
 .contacts-nav a {
     color: var(--secondary-color);
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14%;
+    letter-spacing: 0.02em;
 }
 
 .contacts-nav a:hover,
@@ -59,36 +79,190 @@ body {
 }
 
 /* герой */
-.hero {
-    background-color: #2F303A;
-}
+.hero {}
 
 .hero-title {
     color: #FFFFFF;
 
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36%;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
 }
 
-.button {
+.button button {
     color: var(--main-title-color);
     background-color: var(--accent-color);
+
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88%;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.06em;
 }
 
 /* список переваг */
+
+.text h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
 .text p {
     color: var(--secondary-color);
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71%;
+}
+
+/* приклади робіт */
+
+.secondary-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16%;
+    text-align: center;
 }
 
 /* наша команда */
+
+.last-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16%;
+    text-align: center;
+}
+
+.avatar h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18%;
+
+    text-align: center;
+}
+
+.avatar p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 11.18%;
+
+    text-align: center;
+}
+
+
 .avatar p {
     color: var(--secondary-color);
 }
 
 /* підвал */
-
-.footer-background {
-    background-color: #2F303A;
-}
-
-.logo-footer {
+.logo-icon-link {
     color: var(--main-title-color);
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.74%;
+
 }
+
+.logo-icon {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+
+    font-family: 'Raleway' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19%;
+
+}
+
+.logo-icon-link:hover,
+.logo-icon-link:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+
+/* портфоліо */
+/* палітра кольорів */
+/* фон кнопки rgba(245, 244, 250, 1)*/
+
+:root {
+    --background-botton: rgba(245, 244, 250, 1);
+}
+
+/* фільтр */
+.button-control {
+    background-color: var(--background-botton);
+    color: var(--main-color);
+
+}
+
+.button-control:hover,
+.button-control:focus {
+    color: var(--accent-color);
+
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62%;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* набор контенту */
+
+.img-title a {
+    text-decoration: none;
+}
+
+.img-title h2 {
+    color: var(--main-color);
+
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0%;
+
+    letter-spacing: 0.06em;
+}
+
+.img-title p {
+    color: var(--secondary-color);
+
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 11.88%;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+}
+
+/* підвал */
