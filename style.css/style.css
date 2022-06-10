@@ -20,7 +20,8 @@ body {
     color: var(--main-color);
     font-family: roboto;
     letter-spacing: 0.03em;
-    font-family: Roboto;
+    font-family: Roboto'Helvetica Neue;
+
 }
 
 .list {
@@ -33,11 +34,11 @@ body {
     color: black;
     text-decoration: none;
 
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
 }
 
 .logo-title {
@@ -52,8 +53,12 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14%;
+    line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.current {
+    color: var(--accent-color);
 }
 
 .site-nav a:hover,
@@ -69,7 +74,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14%;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -87,7 +92,7 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36%;
+    line-height: 1.36;
 
     text-align: center;
     letter-spacing: 0.06em;
@@ -95,26 +100,24 @@ body {
 
 }
 
-.button button {
+.hero-button {
     color: var(--main-title-color);
     background-color: var(--accent-color);
 
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88%;
-    /* identical to box height, or 188% */
+    line-height: 1.88;
+
     letter-spacing: 0.06em;
 }
 
 /* список переваг */
 
 .text h3 {
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 
@@ -122,46 +125,36 @@ body {
     color: var(--secondary-color);
 
 
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.71%;
+    line-height: 1.71;
 }
 
 /* приклади робіт */
 
 .secondary-title {
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 1.16%;
+    line-height: 1.16;
     text-align: center;
 }
 
 /* наша команда */
 
 .last-title {
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 1.16%;
+    line-height: 1.16;
     text-align: center;
 }
 
 .avatar h3 {
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
-    line-height: 1.18%;
+    line-height: 1.18;
 
     text-align: center;
 }
 
 .avatar p {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 11.18%;
+    line-height: 1.18;
 
     text-align: center;
 }
@@ -176,24 +169,12 @@ body {
     color: var(--main-title-color);
     text-decoration: none;
 
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.74%;
+    line-height: 1.74;
+
 
 }
 
-.logo-icon {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-
-    font-family: 'Raleway' sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19%;
-
-}
 
 .logo-icon-link:hover,
 .logo-icon-link:focus {
@@ -201,6 +182,34 @@ body {
 }
 
 
+.logo-icon-links {
+    color: var(--secondary-color);
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+}
+
+.logo-icon-links:hover,
+.logo-icon-links:focus {
+    color: var(--accent-color);
+}
+
+.logo-icon {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+}
 
 
 
@@ -217,21 +226,20 @@ body {
     background-color: var(--background-botton);
     color: var(--main-color);
 
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+
 }
 
 .button-control:hover,
 .button-control:focus {
-    color: var(--accent-color);
+    background-color: var(--accent-color);
 
-    font-family: 'Roboto' sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62%;
-    /* identical to box height, or 162% */
-
-    text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /* набор контенту */
@@ -247,7 +255,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 2.0%;
+    line-height: 2.0;
 
     letter-spacing: 0.06em;
 }
@@ -259,7 +267,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 11.88%;
+    line-height: 1.8;
     /* identical to box height, or 188% */
 
     letter-spacing: 0.03em;
