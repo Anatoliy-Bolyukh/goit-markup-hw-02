@@ -240,6 +240,7 @@ body {
 .button-control:hover,
 .button-control:focus {
     background-color: var(--accent-color);
+    color: white;
 
 }
 
